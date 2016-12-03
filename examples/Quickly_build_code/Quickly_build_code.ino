@@ -26,7 +26,7 @@ RobiBot.begin(9600); // RobiBot baudrate
  RobiBot.left_motor(); // Add left motor
  RobiBot.right_motor(); // Add right motor
  RobiBot.servo(); // Add servo motor
- RobiBot.motion(RELEASE); // Motors in stop position
+ RobiBot.motion(BRAKE); // Motors in stop position
 }
 
 void loop() {
