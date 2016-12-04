@@ -1,6 +1,6 @@
 /* "RobiBot" library created by Sezgin GÜL
  *  Writing the code of the robot that detects the obstacle quickly
- *  /**
+ *  /*
  * @author     Sezgin Gül
  * @license    This project is released under The GNU General Public License v3.0
  * @copyright  Copyright (c) 2016 Sezgin Gül
@@ -15,6 +15,10 @@
  * Buzzer signal pin : D3
  * Lef dc motor : ENA: D5 ; SIGNAL PINS : D4 AND D7
  * Right dc motor: ENA: 5 ; SIGNAL PINS : D8 AND D9
+*/
+
+/* 
+ *  RobiBot shield pcb design >> https://circuits.io/circuits/3416259-robibot-obstacle-avoiding-robot-shield#pcb
 */
 #include <RobiBot.h> // RobiBot library
 
@@ -33,4 +37,3 @@ void loop() {
 
 RobiBot.check(15); // Robot start function by entering obstacle detection distance
 }
-
